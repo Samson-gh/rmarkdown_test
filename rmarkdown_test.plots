@@ -1,0 +1,13 @@
+---
+title: "rmarkdown_testfile"
+author: "samson"
+date: "10/15/2020"
+output: html_document
+---
+
+```{r}
+mydata<-read.csv("C:\\Users\\sjmif\\Downloads\\dataA3Q3.csv")
+attach(mydata)
+mymodel<-lm(y~x1+x2)
+plot(mymodel)
+```

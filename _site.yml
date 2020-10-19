@@ -1,0 +1,17 @@
+name: "Test Website"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "Test Website"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
